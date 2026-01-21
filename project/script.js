@@ -5,3 +5,8 @@ console.log("Project initialized");
 document.getElementById('btnHello').addEventListener('click', function() {
     alert('Xin chào');
 });
+
+// Nút "Tạm biệt"
+document.getElementById('btnGoodbye').addEventListener('click', function() {
+    alert('Tạm biệt');
+});
